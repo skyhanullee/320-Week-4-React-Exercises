@@ -16,7 +16,7 @@ describe('Exercise2', () => {
     render(<Exercise2 />);
 
     const orchid = await screen.findByAltText('orchid');
-    expect(orchid.style[0]).toEqual('border-color');
+    expect(orchid.style[0]).toEqual('border');
   });
 
   it('should have the correct propTypes', () => {
